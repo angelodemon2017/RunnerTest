@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e957926233ea74043b10cd4ad8861d5a, type: 3}
+  m_Name: BonusConfig
+  m_EditorClassIdentifier: 
+  ChanceSpawn: 80.3
+  bonusDatas:
+  - _Weight: 5
+    Key: BonusSpeed
+    BonusValue: 7
+    prefab: {fileID: 6599917421472562460, guid: 931093d1991cbd94ab2291a47b0dca19, type: 3}
+  - _Weight: 5
+    Key: BonusShield
+    BonusValue: 7
+    prefab: {fileID: 297504048384759552, guid: ec8bf7b80ce644d41bd024364ab28550, type: 3}
+  - _Weight: 5
+    Key: BonusHealth
+    BonusValue: 2
+    prefab: {fileID: 5984235823743507912, guid: c620b9f5910d3744b9a581e0d75bfbc7, type: 3}
